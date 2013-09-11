@@ -1,0 +1,56 @@
+/* this is a comment */
+/* this
+  is
+  a
+  multi-line
+  comment
+*/
+
+#div1 {
+color: rgba(0,0,255,1);
+}
+
+
+.divs {
+  background: yellow;
+}
+
+p {
+  color: green;
+}
+
+
+a[href="http://google.com"]
+{
+  background: red;
+}
+
+a[href$="cnn.com"]
+{
+  background-color: green;
+}
+
+a[href*="yahoo"]
+{
+  background: blue;
+}
+
+ul > li:nth-child(3) > span:nth-child(2n)
+{
+  font-size: 25px;
+}
+
+a:hover
+{
+  background-color: white;
+}
+
+#span2
+{
+  background-color: green;
+}
+
+span
+{
+  background-color: red;
+}
