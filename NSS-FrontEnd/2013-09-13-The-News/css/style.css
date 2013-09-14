@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Kelly+Slab);
+
+html
+{
+  background-image:url(../images/grey.png);
+}
+
+
+/* text logo = font-family: 'Kelly Slab', cursive; */
+
+
+#nav
+ {
+ background-color:#262626;
+ width:100%;
+ height:65px;
+ box-shadow: 0px 5px 50px #5E5E5E;
+ position:fixed;
+ top:0px;
+}
+}
+nav a:hover{
+  color:#ffffff;
+}
+.title
+ {
+ color:#32cd32;
+ font-family: 'Kelly Slab', cursive;
+ font-size:45px;
+ width:350px;
+ margin-top:6px;
+ margin-left:15px;
+ font-weight:bold;
+ float:left;
+}
+
+li
+{
+ display:inline;
+ padding:10px;
+}
+#nav a
+{
+ font-family:verdana;
+ text-decoration:none;
+ color:#EDEDED;
+}
+#nav a:hover
+{
+ color:#BDBDBD;
+}
+
+/* down-social media buttons*/
+
+#social
+{
+  color:#32cd32;
+  position: fixed;
+  top: 5px;
+  right: 20px;
+}
+
+/* ^^^Header^^^*/
+
+body > div
+ {
+  width: 960px;
+  margin:auto;
+}
+
+body > div > section:nth-child(1)
+{
+  width: 600px;
+  border-right: 2px dashed red;
+  float: left;
+}
+
+body > div > section:nth-child(1) > p
+{
+width: 290px;
+margin: 0px 5px 0px 5px;
+  float: left;
+}
+
+body > div > section:nth-child(2)
+{
+  width: 358px;
+  float:left;
+}
+
+body > div > section:nth-child(2) > ?
+{
+  width: 320px;
+  margin: 0px 20px 0px 20px;
+}
+
+.clear
+{
+  clear: both;
+}
+
+/* down-first story main */
+
+.main
+{
+  color: #32cd32;
+  margin:100px 0px;
+}
+
+#mark > img
+{
+  width:575px;
+  height: auto;
+}
+
+.story {
+  color: antiquewhite;
+  text-align: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer
+{
+  color:#32cd32;
+  background-color:#262626;
+  width:100%;
+  height:20px;
+  box-shadow: 10px 0px 50px #5E5E5E;
+  position:fixed;
+  bottom:0px;
+}
