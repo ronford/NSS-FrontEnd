@@ -3,7 +3,7 @@ var points = []
 var entry = prompt('start or blank to exit');
 
 
-while(entry)
+for (var i = points.length + 2; i >= 0; i++)
 {
   var point = {}
   point.x1 = parseInt(prompt('Enter X 1'));
