@@ -1,0 +1,11 @@
+body {
+  background: #002043; }
+
+h1 {
+  color: #0381d6;
+  border: 5px solid black; }
+
+#entry {
+  display: inline-block;
+  float: left;
+  margin: auto; }

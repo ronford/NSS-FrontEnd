@@ -1,0 +1,21 @@
+@import 'colors';
+@import 'fonts';
+
+body
+{
+  background:$color_primary;
+}
+
+h1
+{
+  color: $text_color;
+  border: 5px solid black;
+
+}
+
+#entry
+{
+  display: inline-block;
+  float: left;
+  margin: auto;
+}
