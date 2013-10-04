@@ -1,12 +1,26 @@
-input {
-  float: left; }
+body {
+  width: 960px;
+  height: auto; }
 
 .box {
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   margin: 10px;
   border: 1px dashed black; }
+
+.canvas {
+  height: 5px;
+  width: 5px;
+  color: 4px;
+  border: 1px dashed;
+  float: right;
+  color: white; }
+
+#brush {
+  border: 1px dashed black;
+  padding: 3px 25px;
+  margin-left: 25px; }
 
 .clear {
   clear: both; }

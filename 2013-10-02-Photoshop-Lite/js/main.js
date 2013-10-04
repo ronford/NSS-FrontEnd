@@ -1,11 +1,42 @@
+'use strict';
+
 $(document).ready(initialize);
 
 function initialize(){
   $('#add_color').click(addColor);
+  $('#add_box').click(createBoxes);
+  //$('.box').click(boxClicked);
+  //$('parent_selector').on('name of event', 'child selector', name_of_function)
+  $('#colors').on('click', '.box',colorPaletteClicked);
+  $('#boxes').on('mouseover','.canvas', canvasHover);
+
 }
 
+function canvasHover(){
+  var $canvas = $(this);
+  var brushColor = $('#brush').css('background-color');
+  $canvas.css('background-color', brushColor);
+}
+
+function colorPaletteClicked(){
+  var $box = $(this);
+  var color = $box.css('background-color');
+  $('#brush').css('background-color', color);
+}
+
+function createBoxes(){
+  var amount = $('#amount').val();
+  amount = parseInt(amount, 10);
+  for(var i = 0; i < amount;i++){
+    var $canvas = $('<div>');
+    $canvas.addClass('canvas');
+    $('#boxes').append($canvas);
+  }
+}
+
+
 function addColor(){
-  var color = $('#color').val()
+  var color = $('#color').val();
   var $div = $('<div>');
   $div.addClass('box');
   $div.css('background-color', color);
@@ -18,3 +49,5 @@ function clearInputAndFocus(){
   $('#color').val();
   $('#color').focus();
 }
+
+

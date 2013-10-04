@@ -1,0 +1,46 @@
+body
+{
+  background-color: tan;
+}
+
+header
+{
+  background-color: brown;
+  width: 960px;
+  height: 1000px;
+  margin: auto;
+
+}
+
+#logo
+{
+  float: left;
+  width: 300px;
+  height: auto;
+  border: 5px solid brown;
+}
+
+h1{
+  margin: 0px 300px;
+
+}
+
+
+input
+{
+  float: left;
+}
+
+#balance_container
+{
+  margin-top: 50px;
+}
+
+#deposit_container
+{
+  margin-top: 50px;
+}
+.clear
+{
+  clear: both;
+}
