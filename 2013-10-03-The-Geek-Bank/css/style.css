@@ -27,3 +27,20 @@ input {
 
 .clear {
   clear: both; }
+
+#left {
+  float: left;
+  border: 2px dashed tan;
+  width: 300px;
+  height: auto;
+  margin: auto; }
+
+#section_right {
+  float: right; }
+
+#right {
+  float: right;
+  border: 2px dashed tan;
+  width: 300px;
+  height: auto;
+  margin: auto; }

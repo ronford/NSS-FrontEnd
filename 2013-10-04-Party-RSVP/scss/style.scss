@@ -1,0 +1,30 @@
+table
+{
+  background-color: grey;
+  border: 2px dashed black;
+}
+
+tr > th
+{
+  padding: 20px;
+}
+
+.ctrl {
+  float: left;
+  background-color: grey;
+  font-size: 20px;
+  border: 1px solid white;
+}
+
+.nuke{
+
+  float: right;
+  width: auto;
+  height: auto;
+  ;
+}
+
+.up
+{
+  float: left;
+}

@@ -12,8 +12,8 @@ function initialize(){
 }
 
 function createLogo(){
-  var $image = $('#img_address').val();
-  $('#logo').attr('src', $image);
+  var image = $('#img_address').val();
+  $('#logo').attr('src', image);
   $('#img_address').hide();
   $('#set_image').hide();
 
@@ -37,8 +37,12 @@ function enterDeposit()
   amount = parseFloat(amount, 10);
   balance = parseFloat(balance,10);
   var newAmount = balance + amount;
-  $('#balance').text('$' + newAmount + '.00');
+  $('#balance').text('$' + parseFloat(newAmount) + '.00');
 
+  if(  $('#deposit').click(enterDeposit), true){
+    var $div = $('<div>');
+    $('#left').append($div).text('$' + parseFloat(amount) + '.00');
+  }
 }
 
 function enterWithdrawal()
@@ -50,5 +54,7 @@ function enterWithdrawal()
   var newBalance = balance - withdrawal;
 
   $('#balance').text('$' + newBalance + '.00');
+  var $div = $('<div>');
+  $('#right').append($div).text('$' + withdrawal + '.00');
 }
 
