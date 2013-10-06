@@ -1,0 +1,39 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Qunit Template
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    %header
+      %img{src: 'images/Checkmark icon pr.png'}
+      %h1 To Do List
+      %img#right{src: 'images/Checkmark icon pr.png'}
+    .clear
+    #user_input
+      %input#due_date{type:'text', placeholder: 'Enter Due Date'}
+      %input#task{type: 'text', placeholder: 'Enter Task'}
+      %input#priority_color{type: 'text', placeholder: 'Enter Color'}
+      %input#add_task{type: 'button', value: 'Add Task'}
+    .clear
+    %h2 Task List
+    .clear
+    %table
+      %tr.home
+      .clear
+        %th Due Date
+        %th Task
+        %th Color
+        %th#check Done?
+        %th Remove?
+        %th Up/Dwn
+
+    %footer
+      %p My FIRST DECENT APP, I think!! &copy 2013
+
+
+    %script{src:'js/jquery-1.10.2.min.js'}
+    %script{src:'js/underscore-min.js'}
+    %script{src:'js/main.js'}
+

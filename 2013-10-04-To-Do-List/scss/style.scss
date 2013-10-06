@@ -1,0 +1,182 @@
+@import 'fonts';
+
+body
+{
+  position: static;
+  background-image: url('../images/green_home-wide.jpg');
+}
+
+header
+{
+  top:0px;
+  left: 135px;
+  width:960px;
+  height: 160px;
+  border: 2px solid yellow;
+  position: fixed;
+  background-color: rgba(42, 106, 194, 1);
+}
+
+img
+{
+  width: 130px;
+  height: 130px;
+  margin: auto;
+}
+
+#right
+{
+  margin-top: -202px;
+  float: right;
+  width: 130px;
+  height: 130px;
+}
+
+h1
+{
+  margin-top: -100px;
+  text-align: center;
+  font-family: $header_font;
+  color: yellow;
+  font-size: 100px;
+}
+
+
+#user_input
+{
+  top: 165px;
+  left: 135px;
+  position: fixed;
+  width: 960px;
+  height: auto;
+  border: 2px solid yellow;
+  background-color: rgba(42, 106, 194, .8);
+}
+
+#due_date
+{
+  //float: left;
+  margin-left:70px;
+  margin-top: 35px;
+  border: 1px solid #296AC4;
+  background-color:#9CB921;
+}
+
+#task
+{
+  //float: left;
+  margin-top: 35px;
+  margin-left: 10px;
+  border: 1px solid #296AC4;
+  background-color:#9CB921;
+}
+
+#priority_color
+{
+  //float: left;
+  margin-top: 35px;
+  margin-left: 10px;
+  border: 1px solid #296AC4;
+  background-color:#9CB921;
+}
+
+#add_task
+{
+  //float: left;
+  margin-top: 75px;
+  margin-left: 25px;
+  border: 1px solid #296AC4;
+  background-color:#9CB921;
+}
+
+h2
+{
+  margin: 300px 0px 0px 0px;
+  text-align: center;
+  font-family: $header_font;
+  color: yellow;
+  font-size: 100px;
+}
+
+table
+{
+  top:600px;
+  width: 960px;
+  height: auto;
+  background-color:rgba(42, 106, 194, .7);
+  margin: auto 135px;
+}
+
+tr
+{
+
+  margin: 0px 90px;
+}
+
+
+.date
+{
+  width: auto;
+  height:3px;
+  background-color:#9CB921;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.task
+{
+  width: auto;
+  padding: 0px;
+  background-color:#9CB921;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.color
+{
+  width: 50px;
+  height: auto;
+  background-color:#9CB921;
+  border: 1px solid black;
+}
+
+.done
+{
+
+  margin-left: 120px;
+}
+
+.remove
+{
+  width: 100px;
+  margin-left: 150px;
+}
+
+.up
+{
+  margin-left: 50px;
+}
+
+
+
+
+
+.clear
+{
+  clear: both;
+}
+
+footer
+{
+    bottom: 0px;
+    left:135px;
+    position: fixed;
+
+    width: 960px;
+    background-color:rgba(42, 106, 194, .9);
+}
+p
+{
+
+  text-align: center;
+}
