@@ -4,6 +4,13 @@ $(document).ready(initialize);
 
 function  initialize(){
   $('#add_task').click(addRow);
+  //$('table').on('click', 'done', completeTask);
+  $('table').on('click', '.remove', removeTask);
+  //$('table').on('click', '.up, .down', moveTask);
+}
+
+function removeTask(){
+  $(this).closest('tr').remove();
 }
 
 function addRow()
