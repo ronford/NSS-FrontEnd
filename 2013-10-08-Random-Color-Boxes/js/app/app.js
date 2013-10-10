@@ -5,6 +5,7 @@ $(document).ready(initialize);
 var timer;
 
 function initialize(){
+
   $(document).foundation();
   $('#start').click(start);
   $('#stop').click(stop);

@@ -35,6 +35,9 @@
       %input#date{type: 'text', placeholder: 'Purchase Date'}
     .small-2.columns
       %input#add.button.small.success.radius{type: 'button', value: 'Add Item'}
+    .small-12.columns
+      %input#calculate.button.small.radius{type: 'button', value: '$Total'}
+      %input#total.small{type: 'text'}
   .row
     .small-12.columns
       %table#items
@@ -45,6 +48,7 @@
           %th Room
           %th Condition
           %th Purchase Date
+
   %script{src: 'js/vendor/jquery-1.10.2.js'}
   %script{src: 'js/vendor/foundation.min.js'}
   %script{src: 'js/vendor/underscore.js'}
